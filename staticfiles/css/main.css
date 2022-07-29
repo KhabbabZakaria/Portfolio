@@ -1,0 +1,58 @@
+body{
+	background-color:#1a1919!important;
+    background-image: url("LOTR.gif");
+    background-repeat: no-repeat;
+    background-size: 1600px 1500px;
+    cursor: url('sword.png'),auto;
+}
+
+#player {
+    width: 100%;
+   }​
+
+#profile-wrapper{
+	text-align: center;
+    
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+#profile-pic2{
+	width:300px;
+	height: 200px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#picturebox{
+    border-color:midnightblue;
+     margin: 0 auto;
+  border:10px solid #ccc;
+  border-right: 200%;
+      padding:20px 60px 0px 2px ;
+      height: 100%;
+     width:50%;
+     background-color:lightblue;
+ }
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}

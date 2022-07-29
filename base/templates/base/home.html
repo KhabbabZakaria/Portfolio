@@ -1,0 +1,116 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+          
+<head>
+    
+	<title>Khabbab Zakaria</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+
+    
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div  class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/zak.jpg' %}" >
+					<hr>
+					<h4>Hi I am Khabbab Zakaria!</h4>
+                    <h5>You can call me Zak!</h5>
+					
+                    <p>This page in made by me in Django</p>
+                    <p><font face="Albertus MT" size="4px" color="#ecbb20">Theme: Lord of the Rings</font></p>
+                    
+                    <audio id="player" controls autoplay>
+                        <source src="{% static 'css/LOTR.ogg' %}" type="audio/ogg">
+                        <source src="{% static 'css/LOTR.mp3' %}" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>A little bit about myself</h4>
+					<hr>
+					<p>I am from India, currently in Germany. I was born on 1st October, 1995, and that's why my favourite song is 'Wake me up when September ends'! </p>
+                    <p>I love coding, writing, travelling, football, acting...</p>
+					<p>What I enjoy the most? Tough to answer, but one of them would be writing poems. Wanna hear one?</p>
+                    <center>
+                        <h4>Warfare</h4>
+                        <i><p>In the front, no sun shines through the dusts </p>
+
+                        <p>Uncertain are my dawns, if I see my dusks,</p>
+    
+                        <p>But your kiss, my forte, for which no starshine is that fair</p>
+    
+                        <p>'Cause my returning home from gunpoint , so inconspicuous the warfare...</p></i></center>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Master Thesis on Using Deep Reinforcement Learning in Optimum Order Execution (a problem in Finance)</p>
+                    <p>I generated entire Financial Models for 22 different stocks (Large, Mid and Small Capitals) and 2 
+                        ETFs in different market conditions including stressful markets (War, inflation, Covid)</p>
+                    <p>The work is done under the supervision of a team from BlackRock</p>
+
+                    <p><h6>Also,</h6></p>
+                    <p> A lot of projects of Data Science and ML, DSA, Making my own Desktop Assistant, simple Desktop Apps with C++, etc.</p>
+
+                </div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Coolest Project</h5>
+					<hr>
+					<p><h3>Wasted Dodo</h3></p>
+                    <p>This is my NFT project, where I led a team of 6 towards the end of the journey!</p>
+                    <p>Do check Wasted Dodo out in <a href="https://opensea.io/collection/wasteddodo">OpenSea</a> and Rarible!</p>
+                    <img id="profile-pic" src="{% static 'images/dodo.jpg' %}" >
+					
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Skills</h5>
+					<hr>
+					<p>Technical: Python, C, C++, Data Structure and Algorithm, Deep Learning, Reinforcement Learning, 
+                        NLP, Data Science, Data Analysis, REST API, Git, GPU, CUDA, Django, Flask, Vanilla JS, CICTCD, 
+                        unittesting, Mathematics, Statistics</p>
+
+                    <p>Extra Curriculur: And of course, I like to act, play football, play piano, etc.</p>
+                    <p>A bit about hobbies? Listening to musics probably?</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Novel</h5>
+				<hr>
+                <center><img src="{% static 'images/starshine.jpg' %}" height="200" width="150"></center>
+                <p><a href="https://www.amazon.com/Starshine-Winter-Zakwolf-ebook/dp/B086SY28G6/ref=sr_1_1?crid=35V9US9DA9WPD&keywords=starshine+winter+zakwolf&qid=1659048479&sprefix=starshine+winter+zakwolf%2Caps%2C190&sr=8-1">Buy it on<img src="{% static 'images/amazon.jpg' %}" height="25" width="35">Amazon</a></p>
+                
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
